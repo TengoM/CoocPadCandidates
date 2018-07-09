@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cookpad.candidateinfo.ui.layout.CandidateListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/uCandidateItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

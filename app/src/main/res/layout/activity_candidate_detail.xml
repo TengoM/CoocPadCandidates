@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".ui.activity.candidate.CandidateDetailActivity">
+
+
+    <EditText
+        android:id="@+id/uName"
+        style="@style/CandidateDetail.Text.EditText"
+        android:hint="@string/name"
+        />
+
+    <EditText
+        android:id="@+id/uMail"
+        style="@style/CandidateDetail.Text.EditText"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/uPhoneNumber"
+        style="@style/CandidateDetail.Text.EditText"
+        android:hint="@string/phoneNumber"
+        android:inputType="phone"
+        />
+
+
+    <TextView
+        android:id="@+id/uAssessmentGrade"
+        style="@style/CandidateDetail.Text.TextView"
+        android:layout_width="wrap_content"
+        android:minWidth="30dp"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:text="@string/enterGrade"
+
+        />
+
+    <Button
+        android:id="@+id/uSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+</LinearLayout>
